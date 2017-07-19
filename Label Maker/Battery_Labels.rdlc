@@ -11,7 +11,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.49537in</Height>
+              <Height>0.4485in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -24,7 +24,7 @@
                               <Value>="*"+Fields!Number.Value+"*"</Value>
                               <Style>
                                 <FontStyle>Normal</FontStyle>
-                                <FontFamily>Elfring Bar Code 39 d Hp</FontFamily>
+                                <FontFamily>Bar-Code 39</FontFamily>
                                 <FontSize>48pt</FontSize>
                                 <FontWeight>Normal</FontWeight>
                                 <TextDecoration>None</TextDecoration>
@@ -45,12 +45,13 @@
                         <VerticalAlign>Bottom</VerticalAlign>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.99537in</Height>
+              <Height>0.9485in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -84,6 +85,7 @@
                         <VerticalAlign>Middle</VerticalAlign>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -99,6 +101,11 @@
           <TablixMembers>
             <TablixMember>
               <Group Name="Details" />
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!Number.Value</Value>
+                </SortExpression>
+              </SortExpressions>
               <TablixMembers>
                 <TablixMember />
                 <TablixMember />
@@ -107,7 +114,7 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ds</DataSetName>
-        <Height>1.49074in</Height>
+        <Height>1.397in</Height>
         <Width>3.98833in</Width>
         <Style>
           <Border>
@@ -118,7 +125,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.50116in</Height>
+    <Height>1.397in</Height>
     <Style />
   </Body>
   <Width>3.98833in</Width>
@@ -163,7 +170,7 @@
         </Border>
       </Style>
     </PageHeader>
-    <PageHeight>2.125in</PageHeight>
+    <PageHeight>2in</PageHeight>
     <PageWidth>4in</PageWidth>
     <LeftMargin>0.001in</LeftMargin>
     <RightMargin>0.001in</RightMargin>

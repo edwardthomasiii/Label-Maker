@@ -25,7 +25,7 @@
                               <Value>=Fields!Number.Value</Value>
                               <Style>
                                 <FontStyle>Normal</FontStyle>
-                                <FontSize>100pt</FontSize>
+                                <FontSize>70pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                                 <TextDecoration>None</TextDecoration>
                               </Style>
@@ -45,7 +45,6 @@
                         <VerticalAlign>Top</VerticalAlign>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>

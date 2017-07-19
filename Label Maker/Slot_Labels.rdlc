@@ -24,7 +24,7 @@
                               <Value>="*"+Fields!Number.Value+"*"</Value>
                               <Style>
                                 <FontStyle>Normal</FontStyle>
-                                <FontFamily>Elfring Bar Code 39 d Hp</FontFamily>
+                                <FontFamily>Bar-Code 39</FontFamily>
                                 <FontSize>48pt</FontSize>
                                 <FontWeight>Normal</FontWeight>
                                 <TextDecoration>None</TextDecoration>
@@ -50,7 +50,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.99537in</Height>
+              <Height>0.90162in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -107,7 +107,7 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ds</DataSetName>
-        <Height>1.49074in</Height>
+        <Height>1.39699in</Height>
         <Width>3.98833in</Width>
         <Style>
           <Border>
@@ -118,7 +118,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.50116in</Height>
+    <Height>1.39699in</Height>
     <Style />
   </Body>
   <Width>3.98833in</Width>
@@ -146,9 +146,9 @@
           <Value>slot_symbol</Value>
           <Sizing>Fit</Sizing>
           <Top>0.12375in</Top>
-          <Left>3.18751in</Left>
+          <Left>3.40626in</Left>
           <Height>0.29167in</Height>
-          <Width>0.64583in</Width>
+          <Width>0.42708in</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>

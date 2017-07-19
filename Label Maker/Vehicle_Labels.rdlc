@@ -11,7 +11,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.49537in</Height>
+              <Height>0.49884in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -24,7 +24,7 @@
                               <Value>="*"+Fields!Number.Value+"*"</Value>
                               <Style>
                                 <FontStyle>Normal</FontStyle>
-                                <FontFamily>Elfring Bar Code 39 d Hp</FontFamily>
+                                <FontFamily>Bar-Code 39</FontFamily>
                                 <FontSize>48pt</FontSize>
                                 <FontWeight>Normal</FontWeight>
                                 <TextDecoration>None</TextDecoration>
@@ -50,7 +50,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.99537in</Height>
+              <Height>0.8426in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -64,7 +64,7 @@
                               <Value>=Fields!Number.Value</Value>
                               <Style>
                                 <FontStyle>Normal</FontStyle>
-                                <FontSize>70pt</FontSize>
+                                <FontSize>68pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                                 <TextDecoration>None</TextDecoration>
                               </Style>
@@ -99,6 +99,11 @@
           <TablixMembers>
             <TablixMember>
               <Group Name="Details" />
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!Number.Value</Value>
+                </SortExpression>
+              </SortExpressions>
               <TablixMembers>
                 <TablixMember />
                 <TablixMember />
@@ -107,7 +112,7 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ds</DataSetName>
-        <Height>1.49074in</Height>
+        <Height>1.34144in</Height>
         <Width>3.98833in</Width>
         <Style>
           <Border>
@@ -118,7 +123,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.50116in</Height>
+    <Height>1.34144in</Height>
     <Style />
   </Body>
   <Width>3.98833in</Width>
@@ -163,7 +168,7 @@
         </Border>
       </Style>
     </PageHeader>
-    <PageHeight>2.125in</PageHeight>
+    <PageHeight>2in</PageHeight>
     <PageWidth>4in</PageWidth>
     <LeftMargin>0.001in</LeftMargin>
     <RightMargin>0.001in</RightMargin>

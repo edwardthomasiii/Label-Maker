@@ -1,4 +1,4 @@
-﻿namespace Label_Maker
+﻿namespace Label_Wizard
 {
 
 
